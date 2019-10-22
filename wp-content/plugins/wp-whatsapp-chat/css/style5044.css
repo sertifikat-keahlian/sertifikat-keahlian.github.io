@@ -1,0 +1,21 @@
+#wacht a {position: fixed; z-index: 9999; right: 0; float:right; top: 40%; margin-top: -25px; cursor: pointer; min-width:50px; max-width:150px; color:#fff; text-align:center; padding:10px; margin:0 auto 0 auto; background:#20B038; -webkit-transition: All 0.5s ease; -moz-transition: All 0.5s ease; -o-transition: All 0.5s ease; -ms-transition: All 0.5s ease; transition: All 0.5s ease;}
+#wacht-leftside a {position: fixed; z-index: 9999; left: 0; float:left; top: 40%; margin-top: -25px; cursor: pointer; min-width:50px; max-width:150px; color:#fff; text-align:center; padding:10px; margin:0 auto 0 auto; background:#20B038; -webkit-transition: All 0.5s ease; -moz-transition: All 0.5s ease; -o-transition: All 0.5s ease; -ms-transition: All 0.5s ease; transition: All 0.5s ease;}
+#wacht-baixo a {position: fixed; z-index: 9999; right: 0; float:right; top: 90%; margin-top: -25px; cursor: pointer; min-width:50px; max-width:150px; color:#fff; text-align:center; padding:10px; margin:0 auto 0 auto; background:#20B038; -webkit-transition: All 0.5s ease; -moz-transition: All 0.5s ease; -o-transition: All 0.5s ease; -ms-transition: All 0.5s ease; transition: All 0.5s ease;}
+#wacht-leftside-baixo a {position: fixed; z-index: 9999; left: 0; float:left; top: 90%; margin-top: -25px; cursor: pointer; min-width:50px; max-width:150px; color:#fff; text-align:center; padding:10px; margin:0 auto 0 auto; background:#20B038; -webkit-transition: All 0.5s ease; -moz-transition: All 0.5s ease; -o-transition: All 0.5s ease; -ms-transition: All 0.5s ease; transition: All 0.5s ease;}
+
+#wacht a:hover {width: 200px;}
+#wacht-leftside a:hover {width: 200px;}
+#wacht-baixo a:hover {width: 200px;}
+#wacht-leftside-baixo a:hover {width: 200px;}
+
+#wacht a:before {font-family: "Socicon" !important; content: '\e099' !important; margin-left: 5px; margin-right: 5px}
+#wacht-leftside a:before {font-family: "Socicon" !important; content: '\e099' !important; margin-left: 5px; margin-right: 5px}
+#wacht-baixo a:before {font-family: "Socicon" !important; content: '\e099' !important; margin-left: 5px; margin-right: 5px}
+#wacht-leftside-baixo a:before {font-family: "Socicon" !important; content: '\e099' !important; margin-left: 5px; margin-right: 5px}
+
+a.agencia::before {display: none;}
+a.agencia {background-color: rgba(0,0,0,0)!important; color: #2c2b2a!important; font-size: xx-small; top: 95%;}
+
+a.whatsapp:before {font-family: "Socicon" !important; content: '\e099' !important; margin-left: 5px; margin-right: 5px}
+a.whatsapp {min-width:50px; max-width:150px; color:#fff; text-align:center; padding:10px; margin:0 auto 0 auto; background:#20B038; -webkit-transition: All 0.5s ease; -moz-transition: All 0.5s ease; -o-transition: All 0.5s ease; -ms-transition: All 0.5s ease; transition: All 0.5s ease;}
+a.whatsapp:hover {width: 200px;}
